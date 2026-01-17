@@ -3,11 +3,12 @@ import 'package:flutter/widgets.dart';
 import 'package:frute_app/features/on_bording/presentation/view/widgets/page_view_iteam.dart';
 
 class CoustemPageView extends StatelessWidget {
-  const CoustemPageView({super.key});
-
+  const CoustemPageView({super.key, this.pageController});
+final PageController ?pageController;
   @override
   Widget build(BuildContext context) {
     return PageView(
+      controller: pageController,
       children: [
         PageViewIteam(
           image: 'assets/images/onBording1.png',

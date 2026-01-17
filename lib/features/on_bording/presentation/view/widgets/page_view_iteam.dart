@@ -17,7 +17,10 @@ class PageViewIteam extends StatelessWidget {
     return Column(
       children: [
         VerticalSpace(value: 20),
-        Image.asset(image),
+        SizedBox(
+          height: SizeCofige.defaultSize! * 29,
+          child: Image.asset(image),
+        ),
         Text(titel, style: TextStyle(fontWeight: FontWeight.bold)),
         VerticalSpace(value: 1.5),
         Text(subTitel, style: TextStyle(fontSize: 12)),
