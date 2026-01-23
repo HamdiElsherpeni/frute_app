@@ -59,7 +59,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
   }
 
   void navigateMeathod() {
-    Future.delayed(const Duration(seconds: 1), () {
+    Future.delayed(const Duration(seconds: 2), () {
       if (!mounted) return; // حماية إضافية ✅
       Get.to(() => OnBordingView(), transition: Transition.fade);
     });

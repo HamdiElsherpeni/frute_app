@@ -4,7 +4,7 @@ import 'package:frute_app/constsnt.dart';
 import 'package:frute_app/core/utils/size_cofige.dart';
 import 'package:frute_app/core/widgets/coustem_buttons.dart';
 import 'package:frute_app/core/widgets/coustem_indecator.dart';
-import 'package:frute_app/features/auth/presentation/view/login_view.dart';
+import 'package:frute_app/features/auth/presentation/pages/login/login_view.dart';
 import 'package:frute_app/features/on_bording/presentation/view/widgets/coustem_page_view.dart';
 import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/utils/utils.dart';
